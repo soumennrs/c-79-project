@@ -1,0 +1,50 @@
+<html>
+<head>
+
+<title>Ayushi's Creations</title>
+<meta name="veiwport" content="width=device-width , initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+
+</head>
+
+<body>
+<div class="topnav">
+    <div class="active" href="a">Pizzaria</div>
+    <span class="topnav-right">
+        <a href="#veiwblock">Veiw Menu</a>
+        <a href="#addTopings">Add Menu </a>
+    </span>
+</div>
+
+<div class="row" id="veiwblock">
+<div class="img_div">
+    <img class="img-responsive" src="pizza.jpg">
+</div>
+<div class="menu_div">
+<button id="menu_list" onclick="getmenu()">Show Menu</button>
+<div id="display_menu"></div>
+</div>
+</div>
+
+<div class="newRow" id="addTopings">
+    <div class="block1">
+<input id="add_item" placeholder="type here to add toppings?"/> <br>
+<button id="add_toppings" onclick="add_item()">Recommend a new Pizza</button>    
+</div>
+</div>
+
+<div class="block">
+    <div id="display_addedMenu">
+</div>
+</div>
+
+<div>
+    <img class="img-responsive" src="360_F_314721742_D4DmzguQBSoEbVPXsAEkGzF1Mvxx9IYD.jpg">
+</div>
+</body>
+
+</html>
